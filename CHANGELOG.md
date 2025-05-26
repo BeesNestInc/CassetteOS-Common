@@ -1,3 +1,6 @@
+## unreleased
+This patch version updates the Go environment to 1.20 to ensure consistent behavior in CI and go-licenses tooling.
+
 ## v0.4.15-alpha1-cs1.1.0
 
 ### Added
