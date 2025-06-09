@@ -1,4 +1,4 @@
-## unreleased
+## v0.4.15-alpha-cs1.1.2
 - Removed remaining "CasaOS" references from code and documentation
 - Updated README to reflect CassetteOS naming
 
