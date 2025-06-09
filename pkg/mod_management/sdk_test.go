@@ -25,7 +25,7 @@ func TestInstallModule(t *testing.T) {
 	if os.Getenv("CI") != "" {
 		t.Skip()
 	}
-	err := modmanagement.RequireModule("doconverter", "/var/run/casaos")
+	err := modmanagement.RequireModule("doconverter", "/var/run/cassetteos")
 	assert.NoError(t, err)
 }
 
@@ -33,6 +33,6 @@ func TestInstallNoExistModule(t *testing.T) {
 	if os.Getenv("CI") != "" {
 		t.Skip()
 	}
-	err := modmanagement.RequireModule("abc", "/var/run/casaos")
+	err := modmanagement.RequireModule("abc", "/var/run/cassetteos")
 	assert.ErrorIs(t, err, modmanagement.ErrModuleNoInStore)
 }

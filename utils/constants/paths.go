@@ -1,10 +1,10 @@
 package constants
 
 const (
-	DefaultConfigPath   = "/etc/casaos"
-	DefaultConstantPath = "/usr/share/casaos"
-	DefaultDataPath     = "/var/lib/casaos"
-	DefaultFilePath     = "/var/lib/casaos/files"
-	DefaultLogPath      = "/var/log/casaos"
-	DefaultRuntimePath  = "/var/run/casaos"
+	DefaultConfigPath   = "/etc/cassetteos"
+	DefaultConstantPath = "/usr/share/cassetteos"
+	DefaultDataPath     = "/var/lib/cassetteos"
+	DefaultFilePath     = "/var/lib/cassetteos/files"
+	DefaultLogPath      = "/var/log/cassetteos"
+	DefaultRuntimePath  = "/var/run/cassetteos"
 )
