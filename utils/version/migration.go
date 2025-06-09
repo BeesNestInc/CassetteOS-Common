@@ -13,7 +13,7 @@ type GlobalMigrationStatus struct {
 }
 
 var (
-	GlobalMigrationStatusDirPath = "/var/lib/casaos/migration"
+	GlobalMigrationStatusDirPath = "/var/lib/cassetteos/migration"
 
 	ErrInvalidServiceName = errors.New("service name should not contain space or upper case letter")
 )
