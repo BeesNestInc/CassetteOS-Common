@@ -1,4 +1,4 @@
-## unreleased
+## v0.0.1
 - 履歴なしでCassetteOS-Commonのコードを移行
 - 依存関係の更新
 - ZimaOS固有の処理を削除
