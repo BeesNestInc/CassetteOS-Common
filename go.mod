@@ -19,7 +19,6 @@ require (
 	github.com/tidwall/gjson v1.17.0
 	go.uber.org/zap v1.24.0
 	golang.org/x/crypto v0.23.0
-	gopkg.in/ini.v1 v1.67.0
 	gopkg.in/natefinch/lumberjack.v2 v2.2.1
 	gotest.tools/v3 v3.4.0
 )
